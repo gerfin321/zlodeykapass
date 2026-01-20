@@ -23,7 +23,6 @@ function copyDiscord() {
 }
 
 const inputs = document.querySelectorAll("select, input");
-
 inputs.forEach(i => i.addEventListener("change", calculate));
 
 function calculate() {
