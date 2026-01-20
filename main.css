@@ -15,13 +15,29 @@ body {
     background: radial-gradient(circle at top, #1a1a22, #0f0f12);
 }
 
-.hero h1 {
+.hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-title h1 {
+    margin: 0;
     font-size: 48px;
-    margin-bottom: 10px;
+}
+
+.pfp {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: 0.9;
 }
 
 .hero p {
     opacity: 0.8;
+    margin-top: 12px;
 }
 
 .contacts a {
@@ -45,7 +61,8 @@ section {
     margin: auto;
 }
 
-h2 {
+.gallery-section h2 {
+    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -59,7 +76,7 @@ h2 {
 .gallery img {
     max-width: 100%;
     max-height: 500px;
-    border-radius: 12px;
+    border-radius: 16px;
 }
 
 .nav {
@@ -84,7 +101,8 @@ h2 {
     border-radius: 16px;
 }
 
-select, input[type="number"] {
+select,
+input[type="number"] {
     padding: 10px;
     background: #0f0f12;
     border: 1px solid #333;
