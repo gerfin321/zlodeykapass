@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Рыбинская Психопатка — портфолио</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<header class="hero">
+    <h1>Рыбинская Психопатка</h1>
+    <p>Художница • Дизайнер • Кастомы • Арты на заказ</p>
+
+    <div class="contacts">
+        <a href="https://t.me/zlodeykapass" target="_blank">Telegram</a>
+        <a href="#" onclick="copyDiscord()">Discord</a>
+    </div>
+</header>
+
+<section class="gallery-section">
+    <h2>Галерея</h2>
+    <div class="gallery">
+        <button class="nav prev">‹</button>
+        <img id="galleryImage" src="image1.jpg" alt="art">
+        <button class="nav next">›</button>
+    </div>
+    <div class="gallery-counter" id="galleryCounter">1 / 12</div>
+</section>
+
+<section class="prices">
+    <h2>Калькулятор стоимости</h2>
+
+    <div class="calculator">
+
+        <label>Формат персонажа</label>
+        <select id="format">
+            <option value="700">Хэд (по плечи) — 700₽</option>
+            <option value="1200">Халф (по бедра) — 1200₽</option>
+            <option value="2500">Фулл (полный рост) — 2500₽</option>
+            <option value="500">Цветной скетч — 500₽</option>
+        </select>
+
+        <label>Фон</label>
+        <select id="background">
+            <option value="0">Простой — бесплатно</option>
+            <option value="1000">Средняя детализация — 1000₽</option>
+            <option value="3000">Большая детализация — 3000₽</option>
+        </select>
+
+        <label>
+            <input type="checkbox" id="extraCharacter">
+            Доп. персонаж (+100% от цены персонажа)
+        </label>
+
+        <label>Оружие / магия / животные (за штуку)</label>
+        <input type="number" id="extras" min="0" value="0">
+
+        <label>
+            <input type="checkbox" id="heavyDetails">
+            Сильная детализация / броня (+30%)
+        </label>
+
+        <label>
+            <input type="checkbox" id="process">
+            Запись процесса (+50₽)
+        </label>
+
+        <label>
+            <input type="checkbox" id="nsfw">
+            NSFW (+500₽)
+        </label>
+
+        <label>
+            <input type="checkbox" id="deadline">
+            Срочный дедлайн (+500₽)
+        </label>
+
+        <label>
+            <input type="checkbox" id="discount">
+            Подписка (скидка 20%)
+        </label>
+
+        <div class="total">
+            Итог: <span id="totalPrice">0</span> ₽
+        </div>
+
+    </div>
+</section>
+
+<section class="info">
+    <h2>Важно</h2>
+    <ul>
+        <li>Предоплата 100% после одобрения скетча</li>
+        <li>Анимация — от 1500₽ (цена за арт считается отдельно)</li>
+        <li>Кастомы — от 3000₽</li>
+        <li>Оплата: Сбер, СБП, Telegram ⭐</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© Рыбинская Психопатка</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
