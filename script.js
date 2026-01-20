@@ -9,7 +9,6 @@ document.querySelector(".prev").onclick = () => changeImage(-1);
 
 function changeImage(dir) {
     currentImage += dir;
-
     if (currentImage > totalImages) currentImage = 1;
     if (currentImage < 1) currentImage = totalImages;
 

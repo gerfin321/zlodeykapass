@@ -93,6 +93,21 @@ section {
     margin-top: 10px;
 }
 
+/* КАЛЬКУЛЯТОР */
+
+.prices-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.money-image {
+    display: block;
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto 40px auto;
+    border-radius: 16px;
+}
+
 .calculator {
     display: grid;
     gap: 15px;
