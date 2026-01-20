@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #0f0f12;
+    color: #eaeaea;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: radial-gradient(circle at top, #1a1a22, #0f0f12);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    opacity: 0.8;
+}
+
+.contacts a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.contacts a:hover {
+    background: #222;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 12px;
+}
+
+.nav {
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.gallery-counter {
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+.calculator {
+    display: grid;
+    gap: 15px;
+    background: #16161d;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+select, input[type="number"] {
+    padding: 10px;
+    background: #0f0f12;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 6px;
+}
+
+label {
+    display: block;
+}
+
+.total {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.info ul {
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    opacity: 0.4;
+}
